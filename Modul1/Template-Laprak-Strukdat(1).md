@@ -77,10 +77,10 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![output_soal1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul1/Output/output1.png?raw=true)
+![Screenshot output_soal1_1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul1/Output/output1.png?raw=true)
 
 ##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul1/Output/output1.png?raw=true)
 
 penjelasan unguided 1 
 

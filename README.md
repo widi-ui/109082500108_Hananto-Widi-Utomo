@@ -1,6 +1,6 @@
-#Repositori Praktikum Algoritma Pemrograman 2
+# Repository Praktikum Algoritma Pemrograman 2
 
 Nama : Hananto Widi Utomo
-NIM : 109081500108
-Kelas : IF-13-01
-Universitas Telkom Purwokerto
+<br>NIM : 109082500108
+<br>Kelas : IF-13-01
+<br>Universitas Telkom Purwokerto

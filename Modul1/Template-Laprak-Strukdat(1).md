@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul 1 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Hananto Widi Utomo - </p>109082500108
+<p align="center">Hananto Widi Utomo -109082500108 </p>
 
 ## Dasar Teori
 isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).

@@ -2,11 +2,9 @@
 <p align="center">Hananto Widi Utomo -109082500108 </p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Praktikum ini memperkenalkan Code Blocks sebagai kakas untuk menulis program dan dasar-dasar bahasa C++. Materinya mencakup cara memakai Code Blocks, struktur program, tipe data, input/output, operator, percabangan, perulangan, struktur, dan fungsi[1].
 
-### A. ...<br/>
+### A. Code Blocks IDE<br/>
 ...
 #### 1. ...
 #### 2. ...

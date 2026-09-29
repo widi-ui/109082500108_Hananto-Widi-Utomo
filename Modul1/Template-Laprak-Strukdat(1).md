@@ -83,6 +83,7 @@ int main(){
 ![Screenshot Output Unguided 1_2](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul1/Output/output1.png?raw=true)
 
 penjelasan unguided 1 
+Program ini digunakan untuk menghitung dua bilangan yang dimasukkan. Setelah angka dimasukkan, program akan menghitung penjumlahan, pengurangan, perkalian, dan pembagian, lalu hasilnya ditampilkan ke layar.
 
 ### 2. (isi dengan soal unguided 2)
 
@@ -140,6 +141,7 @@ int main() {
 ![Screenshot Output Unguided 2_2](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul1/Output/output2.png?raw=true)
 
 penjelasan unguided 2
+Program ini digunakan untuk mengubah angka menjadi tulisan. Angka yang dimasukkan harus dari 0 sampai 100, kemudian program akan menampilkan nama angka tersebut, misalnya 79 menjadi tujuh puluh sembilan.
 
 ### 3. (isi dengan soal unguided 3)
 
@@ -192,6 +194,7 @@ int main(){
 ![Screenshot Output Unguided 3_2](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul1/Output/output3.png?raw=true)
 
 penjelasan unguided 3
+Program ini digunakan untuk membuat pola angka seperti bentuk mirror. Angka yang dimasukkan menentukan banyaknya baris, kemudian program mengatur spasi, angka, dan tanda bintang menggunakan perulangan sampai membentuk pola yang sesuai.
 
 ## Kesimpulan
 ...

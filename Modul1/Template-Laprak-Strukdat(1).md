@@ -54,8 +54,9 @@ Perulangan digunakan untuk menjalankan perintah yang sama secara berulang dan ha
 
 ### 1. (isi dengan soal unguided 1)
 Buatlah program yang menerima input-an dua buah bilangan bertipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
-```C++
+C++
 source code unguided 1
+
 #include <iostream>
 using namespace std;
 
@@ -70,7 +71,7 @@ int main(){
     cout << "Pembagian = " << a / b << endl;
 
     return 0;
-}```
+}
 ### Output Unguided 1 :
 
 ##### Output 1

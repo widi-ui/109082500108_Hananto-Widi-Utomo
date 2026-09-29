@@ -74,10 +74,7 @@ int main(){
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul1/Output/soal1.png)/(soal1).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+![Screenshot Output Unguided 1_1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul1/Output/soal1.png)
 
 ##### Output 2
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
@@ -87,7 +84,48 @@ penjelasan unguided 1
 ### 2. (isi dengan soal unguided 2)
 
 ```C++
-source code unguided 2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "Input angka : ";
+    cin >> n;
+
+    string angka[] = {
+        "nol", "satu", "dua", "tiga", "empat",
+        "lima", "enam", "tujuh", "delapan", "sembilan"
+    };
+
+    if (n < 0 || n > 100) {
+        cout << "Angka tidak valid";
+    }
+    else if (n <= 9) {
+        cout << angka[n];
+    }
+    else if (n == 10) {
+        cout << "sepuluh";
+    }
+    else if (n == 11) {
+        cout << "sebelas";
+    }
+    else if (n <= 19) {
+        cout << angka[n - 10] << " belas";
+    }
+    else if (n < 100) {
+        cout << angka[n / 10] << " puluh";
+
+        if (n % 10 > 0) {
+            cout << " " << angka[n % 10];
+        }
+    }
+    else {
+        cout << "seratus";
+    }
+
+    return 0;
+}
 ```
 ### Output Unguided 2 :
 
@@ -105,7 +143,44 @@ penjelasan unguided 2
 ### 3. (isi dengan soal unguided 3)
 
 ```C++
-source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main(){
+    int n;
+
+    cin >> n;
+
+    for(int i = n; i >= 1; i--){
+
+        for(int j = n; j > i; j--){
+            cout << "  ";
+        }
+
+        for(int j = i; j >= 1; j--){
+            cout << j << " ";
+        }
+
+        cout << "* ";
+
+        for(int j = 1; j <= i; j++){
+            cout << j;
+
+            if(j < i)
+                cout << " ";
+        }
+
+        cout << endl;
+    }
+
+    for(int i = 0; i < n; i++){
+        cout << "  ";
+    }
+
+    cout << "*";
+
+    return 0;
+}
 ```
 ### Output Unguided 3 :
 

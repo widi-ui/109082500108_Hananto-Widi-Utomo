@@ -182,7 +182,7 @@ penjelasan unguided 3
 Program ini digunakan untuk membuat pola angka seperti bentuk mirror. Angka yang dimasukkan menentukan banyaknya baris, kemudian program mengatur spasi, angka, dan tanda bintang menggunakan perulangan sampai membentuk pola yang sesuai.
 
 ## Kesimpulan
-...
+Dari praktikum ini, saya jadi lebih memahami penggunaan Code Blocks untuk membuat dan menjalankan program C++. Selain itu, saya juga memahami penggunaan tipe data, input dan output, operator, percabangan, serta perulangan. Dari tiga soal yang dikerjakan, saya belajar membuat program untuk melakukan operasi hitung, mengubah angka menjadi tulisan, dan membuat pola angka menggunakan perulangan.
 
 ## Referensi
 [1] A. Ma'arif, *Dasar Pemrograman C++* (Buku Ajar). Yogyakarta: Program Studi Teknik Elektro, Universitas Ahmad Dahlan. [Online]. Tersedia: https://eprints.uad.ac.id/32726/

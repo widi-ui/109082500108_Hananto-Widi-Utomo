@@ -1,4 +1,4 @@
-# Repository Praktikum Algoritma Pemrograman 2
+# Repository Praktikum Struktur Data
 
 Nama : Hananto Widi Utomo
 <br>NIM : 109082500108

@@ -2,7 +2,6 @@
 <p align="center">Hananto Widi Utomo -109082500108 </p>
 
 ## Dasar Teori
-## Dasar Teori
 
 ### A. Array<br/>
 Array menjadi dasar pembentukan struktur data yang lebih kompleks. Semua elemennya homogen, yaitu bertipe data sama dalam satu array [1]. Indeks array dimulai dari 0, dan setiap elemen diakses lewat indeksnya. Di C++, jumlah elemen ditentukan saat deklarasi, dan perulangan memproses elemen array [2].

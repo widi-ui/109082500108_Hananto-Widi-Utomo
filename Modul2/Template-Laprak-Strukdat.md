@@ -2,21 +2,32 @@
 <p align="center">Hananto Widi Utomo -109082500108 </p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+## Dasar Teori
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+### A. Array<br/>
+Array menjadi dasar pembentukan struktur data yang lebih kompleks. Semua elemennya homogen, yaitu bertipe data sama dalam satu array [1]. Indeks array dimulai dari 0, dan setiap elemen diakses lewat indeksnya. Di C++, jumlah elemen ditentukan saat deklarasi, dan perulangan memproses elemen array [2].
 
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+#### 1. Array Satu Dimensi
+Array satu dimensi menyimpan elemen dalam satu baris dan memakai satu indeks, misalnya `nilai[3]`. Bentuk deklarasinya `tipe_data nama_array[ukuran];`. Praktikum ini memakai array satu dimensi untuk menyimpan dan menampilkan nilai, serta mencari nilai minimum, maksimum, dan rata-rata.
+
+#### 2. Array Dua Dimensi
+Array dua dimensi tersusun dari baris dan kolom, sehingga cocok merepresentasikan matriks [2]. Elemennya memakai dua indeks, yaitu `nilai[baris][kolom]`, dan menelusuri seluruh elemen membutuhkan perulangan bersarang.
+
+#### 3. Array Multidimensi
+Array multidimensi memperluas array dua dimensi dengan indeks tambahan, seperti array tiga dimensi `data[i][j][k]` dan empat dimensi `data[i][j][k][l]`. C++ tidak membatasi jumlah dimensi selama memori mencukupi.
+
+### B. Pointer dan Reference<br/>
+Pointer berisi alamat memori dari variabel lain [1]. Programmer bisa mendeklarasikan pointer dengan tipe data apa pun, tetapi tipenya harus sama dengan tipe variabel yang ditunjuk [1].
+
+#### 1. Alamat Memori dan Operator &
+Setiap variabel menempati alamat tertentu di memori. Operator `&` (address-of) mengambil alamat itu, sehingga `&x` menghasilkan alamat variabel `x`.
+
+#### 2. Pointer dan Operator *
+Tanda `*` mendeklarasikan pointer, misalnya `int *px;`. Perintah `px = &x;` mengisi pointer dengan alamat `x`, lalu `*px` mengambil nilai yang ditunjuk. Operator `*` di sini bernama dereference.
+
+#### 3. Reference
+Reference adalah nama lain (alias) untuk variabel yang sudah ada, ditulis dengan tanda `&` pada deklarasi, misalnya `int &a`. Saat dipakai sebagai parameter fungsi, perubahan di dalam fungsi mengubah variabel asli di `main()`. Reference tidak membutuhkan operator `*` untuk mengakses nilainya.
+
 
 ## Guided 
 
@@ -742,9 +753,9 @@ Menu switch-case digunakan agar pengguna dapat memilih operasi yang ingin dijala
 Intinya: soal ini digunakan untuk memahami penggunaan array satu dimensi, function, procedure, perulangan, dan switch-case.
 
 ## Kesimpulan
-...
+Praktikum Modul 2 menunjukkan tiga hal. Array satu sampai empat dimensi dideklarasikan dan diakses lewat indeks, dan array dua dimensi dengan perulangan bersarang menyelesaikan penjumlahan, pengurangan, dan perkalian matriks 3×3. Pointer menyimpan alamat variabel dan mengakses nilainya dengan `*`, sedangkan reference bekerja sebagai alias yang lebih ringkas. Keduanya menukar nilai tiga variabel melalui fungsi (a = 20, b = 30, c = 10). Function, prosedur, dan menu `switch-case` memecah pencarian nilai minimum (3), maksimum (55), dan rata-rata (21,4) menjadi bagian-bagian terpisah.
+
 
 ## Referensi
-[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
-<br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+[1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: Universitas Islam Negeri Sumatera Utara. Diakses melalui http://repository.uinsu.ac.id/9717/.
+<br>[2] Indahyanti, U., & Rahmawati, Y. (2020). Buku Ajar Algoritma dan Pemrograman dalam Bahasa C++. Sidoarjo: Umsida Press. Diakses pada 5 Oktober 2026 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.

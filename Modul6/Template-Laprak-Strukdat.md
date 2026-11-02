@@ -492,7 +492,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/widi-ui/109082500108_Hananto-Widi-U./blob/main/modul%206/Output/output1.png?raw=true)
+![Screenshot Output Unguided 1_1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul6/Output/Output1.png)
 
 penjelasan unguided 1
 Soal ini meminta ADT Doubly Linked List untuk data buku dalam tiga file. `Buku.h` berisi struct `buku` (kode, judul, tahun terbit), tipe `infotype`, `address`, `ElmList`, `List`, dan prototype prosedur. `Buku.cpp` berisi isi prosedur, dan `main1.cpp` menjalankannya sebagai program utama. Struct `ElmList` punya field `info`, `next`, dan `prev`. Struct `List` menyimpan dua pointer, `First` dan `Last`.
@@ -540,7 +540,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/widi-ui/109082500108_Hananto-Widi-U./blob/main/modul%206/Output/output2.png?raw=true)
+![Screenshot Output Unguided 2_1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul6/Output/Output2.png)
 
 penjelasan unguided 2
 Soal kedua meminta fungsi `findElm` untuk mencari elemen berdasarkan kode buku. Fungsi menerima list `L` dan `x` bertipe `infotype`, lalu mengembalikan alamat elemen bila ketemu dan `Nil` bila tidak. Fungsi membandingkan `kodeBuku`, bukan seluruh isi `x`.
@@ -598,7 +598,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/widi-ui/109082500108_Hananto-Widi-U./blob/main/modul%206/Output/output3.png?raw=true)
+![Screenshot Output Unguided 3_1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul6/Output/Output3.png)
 
 penjelasan unguided 3
 Soal ketiga meminta tiga prosedur delete. `deleteFirst` melepas elemen pertama. `P` menampung alamatnya, `First` pindah ke elemen berikutnya, dan `prev` elemen pertama yang baru diisi `Nil`. `deleteLast` melepas elemen terakhir dengan cara serupa. `P` menampung alamatnya, `Last` pindah ke elemen sebelumnya, dan `next` elemen terakhir yang baru diisi `Nil`. Kalau list hanya punya satu elemen, kedua prosedur mengisi `First` dan `Last` dengan `Nil`.

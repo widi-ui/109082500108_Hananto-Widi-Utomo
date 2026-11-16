@@ -335,4 +335,48 @@ int main() {
 ![Screenshot Output Unguided 2_1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul7/Output/Screenshot_2.png?raw=true)
 
 penjelasan unguided 2
-Soal kedua meminta prosedur `pushAscending` yang memasukkan `x` ke stack sehingga isi stack tetap terurut naik dari bawah ke atas. Elemen terbesar berada di TOP, dan `printInfo` menampilkannya dari yang terbesar ke yang
+Soal kedua meminta prosedur `pushAscending` yang memasukkan `x` ke stack sehingga isi stack tetap terurut naik dari bawah ke atas. Elemen terbesar berada di TOP, dan `printInfo` menampilkannya dari yang terbesar ke yang terkecil.
+
+Prosedur ini memeriksa dulu apakah stack penuh. Bila tidak, penunjuk `i` mulai dari `top`. Selama `i` belum melewati dasar stack dan `info[i]` lebih besar dari `x`, elemen itu digeser satu indeks ke atas (`info[i + 1] = info[i]`) dan `i` turun. Setelah berhenti, `x` disimpan di `info[i + 1]` dan `top` bertambah 1. Elemen yang nilainya sama dengan `x` tidak digeser, sehingga `x` ditempatkan di atasnya.
+
+Di `main2.cpp`, enam nilai dimasukkan berurutan: 3, 4, 8, 2, 3, 9. Setelah 3, 4, dan 8, isinya 3, 4, 8. Nilai 2 lebih kecil dari semuanya sehingga ketiga elemen bergeser dan 2 masuk di dasar. Nilai 3 yang kedua menggeser 4 dan 8, lalu berhenti di 3 yang lama dan masuk di atasnya. Nilai 9 lebih besar dari semua elemen sehingga langsung masuk di TOP. Isi akhir dari bawah ke atas adalah 2, 3, 3, 4, 8, 9, dan `printInfo` menampilkan `[TOP] 9 8 4 3 3 2`. Setelah `balikStack`, tampil `[TOP] 2 3 3 4 8 9`. Hasil ini sama dengan contoh output di soal.
+
+### 3. (Tambahkan prosedur getInputStream(in/out S : Stack). Prosedur membaca input user dan memasukkan setiap input ke stack hingga user menekan tombol enter)
+
+Soal ini memakai `stack1.h` dan `stack1.cpp` yang sama. Prosedur `getInputStream` sudah ada di kedua file tersebut, dan program utamanya tersimpan di file terpisah.
+
+**main3.cpp**
+```C++
+#include "stack1.h"
+
+int main() {
+    cout << "Hello world!" << endl;
+    Stack S;
+    createStack(S);
+    getInputStream(S);
+    printInfo(S);
+    cout << "balik stack" << endl;
+    balikStack(S);
+    printInfo(S);
+    return 0;
+}
+```
+### Output Unguided 3 :
+
+##### Output 1
+![Screenshot Output Unguided 3_1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul7/Output/Screenshot_3.png?raw=true)
+
+penjelasan unguided 3
+Soal ketiga meminta prosedur yang terus membaca input dari keyboard dan memasukkan tiap input ke stack sampai user menekan enter. Sesuai petunjuk soal, pembacaan memakai `cin.get()`, yang mengambil satu karakter setiap kali dipanggil.
+
+`getInputStream` membaca satu karakter ke variabel `c`. Selama `c` bukan karakter enter (`'\n'`), prosedur memeriksa apakah `c` berada di antara `'0'` dan `'9'`. Bila ya, `c - '0'` mengubah karakter itu menjadi angka bertipe integer, lalu angka itu di-`push` ke stack. Karakter lain diabaikan, kemudian prosedur membaca karakter berikutnya. Prosedur berhenti ketika karakter enter terbaca.
+
+Pada `main3.cpp`, input yang diketik adalah `4729601`. Tiap digit masuk ke stack berurutan, sehingga 4 berada di dasar dan 1 berada di TOP. `printInfo` menampilkan `[TOP] 1 0 6 9 2 7 4`, dan setelah `balikStack` tampil `[TOP] 4 7 2 9 6 0 1`. Hasil ini sama dengan contoh output di soal.
+
+## Kesimpulan
+Praktikum Modul 7 membahas stack, yaitu struktur data berprinsip LIFO yang operasinya hanya terjadi di elemen paling atas (TOP). Pada guided, stack dibuat dengan representasi tabel, yang memakai array berukuran tetap dan penanda `Top`, dengan operasi `push` dan `pop` untuk menambah dan mengambil data dari TOP. Pada unguided, ADT Stack berbasis array dibuat dengan `top = -1` sebagai penanda stack kosong. `push` dan `pop` bekerja di indeks `top`, dan `printInfo` menampilkan isi dari TOP ke dasar. `balikStack` membalik urutan elemen dengan menukar elemen dari kedua ujung. `pushAscending` menjaga stack tetap terurut dengan menggeser elemen yang lebih besar dari nilai baru. `getInputStream` memasukkan setiap digit yang diketik ke stack sampai user menekan enter. Ketiga program menghasilkan output yang sama dengan contoh di soal.
+
+
+## Referensi
+[1] Modul Praktikum Struktur Data. (t.t.). Modul 7: Stack. Purwokerto: Telkom University Purwokerto.
+<br>[2] Triase. (2020). Struktur Data: Diktat Edisi Revisi. Medan: Fakultas Sains dan Teknologi, Universitas Islam Negeri Sumatera Utara. Diakses pada 16 November 2026 melalui http://repository.uinsu.ac.id/9717/.

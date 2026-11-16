@@ -146,11 +146,6 @@ int main() {
 }
 ```
 
-### Output Guided :
-
-##### Output 1
-![Screenshot Output Guided 1](https://github.com/widi-ui/109082500108_Hananto-Widi-Utomo/blob/main/Modul7/Output/Screenshot_Guided.png?raw=true)
-
 penjelasan guided
 Program ini mengimplementasikan ADT stack dengan representasi tabel, dibagi menjadi tiga file. `stack.h` memuat `struct infotype` (field `nim` dan `nama`), `struct Stack` yang berisi array `info` berukuran 10 dan penanda `Top`, serta prototype prosedur. `stack.cpp` memuat isi prosedur, dan `main.cpp` memuat program utama.
 
